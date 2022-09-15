@@ -1,0 +1,11 @@
+## 1) INSTALL CONDA
+## 2) CREATE ENVIRONMENTS VARIABLE WITH conda create xxxx
+## 3) ACTIVE CONDA conda activate xxxx
+## 4) INSTALL VERSION OF PYTHON conda install python==3.10
+## 5) INSTALL DLIB UNDER CONDA
+conda install -c conda-forge dlib
+conda install -c "conda-forge/label/cf201901" dlib
+conda install -c "conda-forge/label/cf202003" dlib
+##CREATE YOUR PROGRAMM PYTHON.PY
+##COMPILE WITH pip install auto-py-to-exe (or py2exe or pyinstaller)
+##DEACTIVATE CONDA conda deactivate xxxx
